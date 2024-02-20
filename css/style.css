@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    font-family: 'Protest Revolution', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* estilo encabezado */
+header{
+    width: 100%;
+    padding: 40px 0px 200px 0px;
+    background: url("../img/bg-header.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header nav{
+    width: 80%;
+    /* height: 400px; */
+    /* background-color: red; */
+    /* background: linear-gradient(rgb(219, 241, 20), rgb(255, 255, 255)); */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    padding-right: 80px;
+    margin-right: 10px;
+
+}
+header nav li{
+    margin-right: 50px;
+    list-style: none;
+    
+}
+header nav li a{
+    color: rgb(216, 213, 213);
+    text-decoration: none;
+    font-size: 40px;
+}
+:hover header nav li a{
+    text-decoration: dashed;
+}
+body{
+    background-image: url(../img/paimon.jpg);
+    height: 100vh;
+    padding: 0px 0px 200px 0px;
+}
+#hero{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+#hero1{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#hero h2{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+#hero h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+#hero h1{
+    font-size: 60px;
+    color: #ffff00;
+    margin-bottom: 10px;
+}
+
+#hero1 h2{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+#hero1 p{
+    font-size: 20px;
+    color: #4e4b4b;
+    margin-bottom: 50px;
+}
+
+
+button{
+    width: 120px;
+    height: 50px;
+    background-color: #ffff00;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 26px;
+    color: gray;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: #ffffff;
+}
+
+header img{
+    transition: 50s;
+}
+header :hover{
+    transform: rotate(360deg);
+}
+
+ #logo img:hover{
+    transform: scale(1.1);
+}
+
+/* main */
+main{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+}
+
+#planes{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+#planes h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+#planes p{
+    font-size: 20px;
+
+}
+
+#planes .fila{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+/* DESTINOS */
+
+#Destinos{
+    width: 100%;
+    background-image: url(../img/bg-destinos.png);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+#Destinos h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#Destinos h3{
+    color: #fff;
+}
+
+#Destinos .filas{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    transition: 1s;
+}
+
+#Destinos .filas img:hover{
+    transform: rotate(360deg);
+    transition: 10s;
+}
+
+
+/* CONTACTO */
+
+#Contacto{
+    width: 100%;
+    background-color: #ffff00;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+#Contacto h2{
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: #000000;
+}
+
+#Contacto p{
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+
+
+#Contacto input{
+    margin-bottom: 25px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-color: rgb(224, 201, 201);
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+#Contacto select{
+    margin-bottom: 25px;
+    margin-right: 10px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-color: rgb(224, 201, 201);
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+#Contacto button{
+    width: 120px;
+    height: 50px;
+    background-color: #838370;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+#Contacto button:hover{
+    transform: scale(1.2);
+    background-color: #000000;
+}
+/* FOOTER */
+
+
+#foot{
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    header{
+        background: #000000;
+        
+    }
+
+    header nav{
+        display: block;
+        text-align: center;
+        width: 96%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    header{
+        background-color: #00f7ff;
+    }
+}
+/* body{
+    background-image: url(../img/paimon.jpg);
+    height: 100vh;
+    padding: 40px 0px 200px 0px;
+} */
